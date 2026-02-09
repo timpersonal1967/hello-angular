@@ -1,0 +1,8 @@
+<p>Contact us at {{ email }}</p>
+
+<button (click)="showDetails = !showDetails">Show Details</button>
+
+<div *ngIf="showDetails">
+	<p>Here are some more details about how to contact us...</p>
+</div>
+

@@ -9,7 +9,7 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
   template: `
     <label class="toggle">
       <input type="checkbox" [checked]="value" (change)="onToggle($event)" />
-      <span class="slider"></span>
+      <span class="slider">Click Me</span>
     </label>
   `,
   styles: [
@@ -23,12 +23,16 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
       }
       .slider {
         display: inline-block;
-        width: 50px;
+        width: 200px;
         height: 24px;
-        background: #ccc;
+        background: #6a6a6bef;
         border-radius: 12px;
         cursor: pointer;
         transition: 0.3s;
+        padding: 5px;
+        text-align: center;
+        color: white;
+        line-height: 24px;
       }
       input:checked + .slider {
         background: #4caf50;

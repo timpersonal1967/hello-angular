@@ -3,7 +3,7 @@ import { ReactiveFormsModule, FormGroup, FormControl, Validators } from '@angula
 import { CommonModule } from '@angular/common';
 
 @Component({ 
-   selector: 'app-login-form',
+     selector: 'app-login-form',
      standalone: true,
      imports: [CommonModule, ReactiveFormsModule],
      templateUrl: './login-form.html' 

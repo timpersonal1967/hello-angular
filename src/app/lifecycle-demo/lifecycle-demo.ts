@@ -6,11 +6,9 @@ import { FormsModule } from '@angular/forms';
   selector: 'app-lifecycle-demo',
   standalone: true, // added
   imports: [CommonModule, FormsModule], // provide NgIf
-  template: `
-       
-    <input [(ngModel)]="value" type="text" />
+  template: `<input [(ngModel)]="value" type="text" />
     <p *ngIf="visible">Value: {{ value }}</p>
-        <button (click)="hide()">Hide</button>  
+    <button (click)="hide()">Hide</button>  
   `,
 })
 export class LifecycleDemoComponent implements OnInit, OnChanges, OnDestroy {

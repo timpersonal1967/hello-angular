@@ -19,6 +19,6 @@ export class App {
 
    setting = false;
    
-[x: string]: any;
+  [x: string]: any;
   protected readonly title = signal('hello-angular');
 }

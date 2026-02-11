@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+body, h1, h2, p, input, label, div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 10px;   
+}
+
+button {
+    font-size: 16px;
+    margin: 10px;
+    width: 200px;
+    background: #5ccd9e;
+}
+
+p.info {
+    font-size: 18px;
+    color: white;
+    background: #126196;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+}

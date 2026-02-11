@@ -1,8 +1,11 @@
 <h1>Hello Timmy!!</h1>
 <p>This is your first angular app</p>
 <app-greeting></app-greeting>
-<br>
-
+<br />
 <app-contact></app-contact>
-<br>
+<br />
 <app-profile-card></app-profile-card>
+<app-lifecycle-demo [value]="'Hello'"></app-lifecycle-demo>
+<app-login-form></app-login-form>
+<p>Toggle: {{ setting }}</p>
+<app-toggle-switch [(ngModel)]="setting"></app-toggle-switch>
